@@ -47,7 +47,7 @@
 
 //export default dbConnect;
 
-const { MongoClient } = require("mongodb");
+import { MongoClient } from "mongodb";
 
 const uri = "mongodb+srv://sb9984108_db_user:N98UgcTTwDEarKI@cluster0.xxxxx.mongodb.net/";
 const client = new MongoClient(uri);

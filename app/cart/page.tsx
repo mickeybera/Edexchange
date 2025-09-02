@@ -179,14 +179,16 @@ export default function CartPage() {
                       <span>Total</span>
                       <span>₹{state.total.toFixed(2)}</span>
                     </div>
-                    
+                    <a href="https://forms.gle/js42fFeuKwSnqEuZ6">
                     <Button 
+                       
                       className="w-full" 
                       size="lg"
                       onClick={handleCheckout}
                     >
                       Proceed to Checkout
                     </Button>
+                    </a>
                     
                     <p className="text-xs text-muted-foreground text-center">
                       Safe and secure checkout
